@@ -36,21 +36,38 @@ li {
   margin-bottom:1%
 }
 
-.top_bar a{
+.top_bar {
     display: block;
     background-color: #eef7f0;
     margin-top: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 hr {
     border-color: #759473;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    width: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    justify-content: center;
+    width: 90%;
 }
 
 .box_link {
     display: inline-block;
     background-color: #acc7b4;
     padding: 10px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    flex: 1;
+}
+
+.text_container {
+    display: inline-block;
+    background-color: #86a884;
+    justify-content: center;
+    align-items: center;
+    border-color: #3d5741;
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px;
 }

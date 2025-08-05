@@ -16,7 +16,6 @@ li {
 }
 
 h1 {
-    background-color: #86a884;
     font-size: 60px;
     height: 100px;
     width: 100%;
@@ -33,10 +32,22 @@ hr {
 }
 
 .container {
+    background-color: #86a884;
     display: flex;
     justify-content: center;
     align-items: center;
     border-color: #3d5741;
     border-style: solid;
     border-width: 2px;
+}
+
+ .text_container {
+    display: inline-block;
+    background-color: #86a884;
+    justify-content: center;
+    align-items: center;
+    border-color: #3d5741;
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px;
 }
